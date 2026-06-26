@@ -1,5 +1,6 @@
 img {
-  max-width: auto;
-  height: auto;
   display: block;
+  max-width: 80%;        /* 限制最大宽度为容器宽度的80%，避免图片太大 */
+  height: auto;           /* 高度自适应，保持原始宽高比 */
+  margin: 0 auto;         /* 水平居中 */
 }
